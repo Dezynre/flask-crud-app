@@ -1,0 +1,72 @@
+
+body{
+	background: rgb(41,57,63);
+	color: rgb(250,250,250);
+	padding: 2em;
+}
+h2{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	padding: .5em;
+	font-weight: bold;
+	font-family: "Ubuntu";
+}
+form{
+	width: 60%;
+	margin: 0 auto;
+	padding: 1em;
+}
+form > h2{
+	width: 100%;
+	text-align: center;
+}
+form > input{
+	width: 70%;
+	padding: .5em;
+	border: 2px solid rgb(200,200,200);
+	border-radius: 8px;
+	background: rgba(41,57,63,0.5);
+	color: rgb(250,250,250);
+	margin: 0 auto;
+}
+form > textarea{
+	width: 70%;
+	padding: 2em;
+	border: 2px solid rgb(200,200,200);
+	border-radius: 8px;
+	background: rgba(41,57,63,0.5);
+	color: rgb(250,250,250);
+	margin: 0 auto;
+}
+form > label{
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+}
+.d-block{
+	display: block;
+}
+.uniform-margin{
+	margin-top: 1em;
+}
+.btn{
+	font-weight: bold;
+	padding: .5em;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1.5em;
+	border: 1px solid rgb(200,200,200);
+	background: rgb(200,200,200);
+	border-radius: 5px;
+	color: rgb(41,57,63);
+	transition: all 200ms ease-out;
+}
+.btn:hover{
+	background: rgb(240,240,240);
+}
+
+input:focus{
+	border: 1px solid green;
+}

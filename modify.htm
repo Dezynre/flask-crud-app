@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modify Post</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='reset.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='modify.css') }}">
+</head>
+<body>
+	<form method="post" action="/post/modify/{{ post.id }}">
+		<h2>Modify this post</h2>
+		<label for="title" class="d-block uniform-margin">Title</label>
+		<input type="text" name="title" id="title" placeholder="title" class="d-block">
+		<label for="content" class="d-block uniform-margin">Content</label>
+		<textarea id="content" class="d-block "  placeholder="content" name="content"></textarea>
+		<button type="submit" class="btn uniform-margin">* Save </button>
+	</form>
+    <script src="{{ url_for('static', filename='modify.js') }}"></script>
+</body>
+</html>
